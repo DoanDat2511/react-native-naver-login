@@ -28,11 +28,7 @@ android {
   lintOptions {
     abortOnError false
   }
-  configurations.all {
-    resolutionStrategy {
-        force 'com.naver.nid:naveridlogin-android-sdk:4.2.6'
-    }
-}
+
 }
 
 repositories {
